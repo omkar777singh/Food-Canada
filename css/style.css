@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/*CSS for headers*/
+.head {
+  margin-top: 20px;
+  height: 40px;
+  display: flex;
+  margin-left: 100px;
+}
+img {
+  width: 40px;
+  height: 30px;
+}
+div > p {
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+input {
+  width: 150px;
+  margin-left: 300px;
+  height: fit-content;
+}
+.menubar > p {
+  margin-left: 100px;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.submenu {
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.submenu ul {
+  list-style: none;
+  display: flex;
+}
+.submenu ul li a {
+  margin-right: 20px;
+}
+/*CSS for the Body*/
+.body1 {
+  width: 869px;
+  height: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url("../images/salt-g7dc113a2d_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body1 button {
+  background-color: #4f031e;
+  width: 120px;
+  height: 30px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.body1 .body1-but1 button:nth-child(1) {
+  height: 80px;
+}
+.body1 .arrow{
+    display: flex;
+}
+
+.body1 .arrow .arrow-div1 .arr1 {
+  background-color: #4f031e;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  margin-top: 162px;
+}
+.item{
+    margin-top: 162px;
+    margin-left: 5px;
+}
+.body1 .arrow .arrow-div2 .arr2{
+    background-color: #4f031e;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50px;   
+    height:50px;
+    margin-top: 162px;
+    margin-left: 4px;
+}
+.play .play1{
+    background-color: #4f031e;
+    color: white;
+    border-radius: 36%;
+    border: 1px solid black;
+    width: 50px;
+    margin-top: 162px;
+    margin-left: 401px;
+}
+.slides{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slides img{
+    width: 174px;
+    height: 144px;
+    margin-left: 20px;
+    border: 1px solid grey;
+
+}
+.slides figcaption{
+    text-align: center;
+    background-color: #4f031e;
+    color: white;
+    margin-left: 20px;
+    margin-top: -4px;
+}
+.subscribe{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:200px ;
+  background-image: url("../images/enjoy.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*CSS for Footer */
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4f031e;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+}
+.f1-left h4 {
+  padding-top: 8px;
+}
+.f1-left h6 {
+  padding: 5px;
+}
+.f1-center {
+  margin-top: 27px;
+}
+.f1-center h6 {
+  padding: 5px;
+}
+.f1-right h4 {
+  padding-top: 8px;
+}
+.f1-right i {
+  margin-top: 25px;
+  padding: 5px;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 212, 212);
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  letter-spacing: 0.5px;
+  height: 87px;
+}
+.f2-left button {
+  background-color: #4f031e;
+  margin-top: 10px;
+  font-size: 0.5em;
+  color: white;
+  margin-left: 5px;
+}
+.f2-right button {
+  background-color: #4f031e;
+  margin-top: 10px;
+  font-size: 0.5em;
+  color:white;
+  margin-right: 5px;
+}
+.f2-left h6 {
+  color: black;
+  margin-left: 5px ;
+  font-size: 0.8em;
+}
+
+.footer3 {
+  width: 869px;
+  height: 100px;
+  background: #26374a url(../images/landscape.jpeg) no-repeat right bottom;
+  
+  background-size: contain;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.f3-left {
+  margin-left: 100px;
+}
+.f3-right {
+  margin-right: 100px;
+}
+.f3-left h6 {
+  padding: 6px;
+}
+.f3-center h6 {
+  padding: 6px;
+}
+.f3-right h6 {
+  padding: 6px;
+}
+.footer4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 212, 212);
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.footer4 ul {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer4 li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer4 a {
+  font-size: 0.5em;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.f4-right {
+  width: 85px;
+  height: 60px;
+  background-image: url("../images/flag.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+}
+.f4-right p {
+  color: black;
+  padding: 3px;
+}
